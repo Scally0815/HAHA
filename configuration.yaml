@@ -6,8 +6,8 @@ default_config:
 #   base_url: example.duckdns.org:8123
 
 # Text to speech
-tts:
-  - platform: google_translate
+# tts:
+#   - platform: google_translate
 
 group: !include groups.yaml
 automation: !include automations.yaml
@@ -18,4 +18,4 @@ recorder:
 
 mqtt:
   broker: tasks.mosquitto
-  # discovery: true
+  discovery: true
